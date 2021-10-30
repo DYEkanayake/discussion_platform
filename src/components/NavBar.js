@@ -12,8 +12,6 @@ import SofLogo from '../svg/stack-overflow.svg';
 import {
   AppBar,
   Toolbar,
-  Typography,
-  Link,
   Button,
   Container,
   useMediaQuery,
@@ -21,7 +19,6 @@ import {
 } from '@material-ui/core';
 import { useNavStyles } from '../styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import SearchIcon from '@material-ui/icons/Search';
 
 const NavBar = () => {
