@@ -7,13 +7,14 @@ import UserMenuDesktop from './UserMenuDesktop';
 import SearchBar from './SearchBar';
 import DarkModeSwitch from './DarkModeSwitch';
 import { useAuthContext } from '../context/auth';
-import SofLogo from '../svg/stack-overflow.svg';
+//import SofLogo from '../svg/stack-overflow.svg';
+import SofLogo from '../svg/askNace.svg';
 
 import {
   AppBar,
   Toolbar,
-  Typography,
-  Link,
+  //Typography,
+  //Link,
   Button,
   Container,
   useMediaQuery,
@@ -21,7 +22,7 @@ import {
 } from '@material-ui/core';
 import { useNavStyles } from '../styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+//import FavoriteIcon from '@material-ui/icons/Favorite';
 import SearchIcon from '@material-ui/icons/Search';
 
 const NavBar = () => {
@@ -74,11 +75,11 @@ const NavBar = () => {
                   >
                     <img
                       src={SofLogo}
-                      width="28px"
+                      width="200px"
                       alt="sof-logo"
                       style={{ marginRight: '5px' }}
                     />
-                    <strong>Ask </strong>N<strong> Ace</strong>
+                    
                   </Button>
                 )}
                 

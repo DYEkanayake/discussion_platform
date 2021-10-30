@@ -6,8 +6,6 @@ import {
   Menu,
   MenuItem,
   Divider,
-  Typography,
-  Link,
 } from '@material-ui/core';
 import { useMenuStyles } from '../styles/muiStyles';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -15,7 +13,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import PublicIcon from '@material-ui/icons/Public';
 import LocalOfferIcon from '@material-ui/icons/LocalOffer';
 import PeopleIcon from '@material-ui/icons/People';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+
 
 const MobileNavMenu = () => {
   const { pathname } = useLocation();
@@ -81,20 +79,7 @@ const MobileNavMenu = () => {
           Users
         </MenuItem>
         <Divider />
-        <div className={classes.madeByItem}>
-          <Typography variant="caption" color="secondary">
-            Made with{' '}
-            <FavoriteIcon style={{ fontSize: 10, color: '#f4649f' }} /> by{' '}
-            <Link
-              href={'https://github.com/amand33p'}
-              color="inherit"
-              target="_blank"
-              rel="noopener"
-            >
-              <strong>{` amand33p`}</strong>
-            </Link>
-          </Typography>
-        </div>
+       
       </Menu>
     </div>
   );
