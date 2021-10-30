@@ -13,8 +13,11 @@ import SofLogo from '../svg/askNace.svg';
 import {
   AppBar,
   Toolbar,
+<<<<<<< HEAD
   //Typography,
   //Link,
+=======
+>>>>>>> 04f7882c006a0adfec852d685f8efa3e86bf30d0
   Button,
   Container,
   useMediaQuery,
@@ -22,7 +25,10 @@ import {
 } from '@material-ui/core';
 import { useNavStyles } from '../styles/muiStyles';
 import { useTheme } from '@material-ui/core/styles';
+<<<<<<< HEAD
 //import FavoriteIcon from '@material-ui/icons/Favorite';
+=======
+>>>>>>> 04f7882c006a0adfec852d685f8efa3e86bf30d0
 import SearchIcon from '@material-ui/icons/Search';
 
 const NavBar = () => {
